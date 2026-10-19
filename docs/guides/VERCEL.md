@@ -4,7 +4,7 @@
 
 ## 프로젝트 설정
 
-- Git 저장소: `2026-KW-HACKATHON/34_Heokangjeong`
+- 현재 Git 저장소: `i1uvmango/WOLINK`
 - Production Branch: `main`
 - Framework: Next.js
 - Build Command: `npm run build`
@@ -31,6 +31,6 @@ Production과 Preview에 다음 값을 설정한다. 실제 값은 로컬 `.env`
 
 ## 배포 방식
 
-Vercel GitHub 연결을 마치면 main에 push할 때 운영 배포가 자동으로 생성된다. CLI로는 계정 로그인과 프로젝트 연결을 마친 뒤 `npx vercel --prod`로 배포할 수 있다.
+Vercel 프로젝트의 Git 연결도 `i1uvmango/WOLINK`를 가리키는지 대시보드에서 확인해야 한다. 새 저장소 연결을 마치면 `main`에 push할 때 운영 배포가 자동으로 생성된다. CLI로는 계정 로그인과 프로젝트 연결을 마친 뒤 `npx vercel --prod`로 배포할 수 있다.
 
 DB 마이그레이션과 Supabase Edge Function 배포는 Vercel 빌드와 별도로 적용한다.
